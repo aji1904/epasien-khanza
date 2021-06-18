@@ -8,63 +8,6 @@
     $blnbesok               = substr($besok,5,2);
     $tglbesok               = substr($besok,8,2);
 ?>
- <section id="home" class="slider" data-stellar-background-ratio="0.5">
-      <div class="container">
-           <div class="row">
-                 <div class="owl-carousel owl-theme">
-                      <div class="item item-first">
-                           <div class="caption">
-                                <div class="col-md-offset-1 col-md-10">
-                                     <h3>Mari buat hidupmu lebih bahagia</h3>
-                                     <h1>Hidup Sehat</h1>
-                                     <a href="#team" class="section-btn btn btn-default smoothScroll">Temui Dokter Kami</a>
-                                </div>
-                           </div>
-                      </div>
-                      <div class="item item-second">
-                           <div class="caption">
-                                <div class="col-md-offset-1 col-md-10">
-                                     <h3>Kami usahakan yang terbaik untuk Anda</h3>
-                                     <h1>Jadikan Kami Sahabat Anda</h1>
-                                     <a href="#about" class="section-btn btn btn-default btn-gray smoothScroll">Lebih Banyak Tentang Kami</a>
-                                </div>
-                           </div>
-                      </div>
-                      <div class="item item-third">
-                           <div class="caption">
-                                <div class="col-md-offset-1 col-md-10">
-                                     <h3>Jangan sampai waktu anda bersama keluarga menjadi terganggu</h3>
-                                     <h1>Manfaatkan Kesehatan Anda</h1>
-                                     <a href="#news" class="section-btn btn btn-default btn-blue smoothScroll">Lihat Jadwal Dokter</a>
-                                </div>
-                           </div>
-                      </div>
-                      <!-- informasi poli -->
-                      <div class="item item-fourth">
-                           <div class="caption">
-                                <div class="col-md-offset-1 col-md-10">
-                                     <h3>Anda Mengalami Keluhan Sakit, Datang Saja Kesini</h3>
-                                     <h1>Poliklinik Kami</h1>
-                                     <a href="#poli" class="section-btn btn btn-blue btn-default smoothScroll">Lihat Poliklinik</a>
-                                </div>
-                           </div>
-                      </div>
-
-                      <!-- informasi kamar -->
-                      <div class="item item-fifth">
-                           <div class="caption">
-                                <div class="col-md-offset-1 col-md-10">
-                                     <h3>Kenyamanan Anda Merupakan Kebanggaan Bagi Kami</h3>
-                                     <h1>Fasilitas Kamar Inap</h1>
-                                     <a href="#ranap" class="section-btn btn btn-warning btn-default smoothScroll">Lihat Kamar Inap</a>
-                                </div>
-                           </div>
-                      </div>
-
-                 </div>
-           </div>
-      </div>
- </section>
 
  <!-- ABOUT -->
  <section id="about">
@@ -282,17 +225,17 @@
 
                     <div class='col-md-6 col-sm-6' style="margin-bottom: 30px;">
                          <div class='team-thumb wow fadeInUp' style="background-color: #a5c422">
-                              <img alt='Photo' src='images/kelas1.jpg' class='img-responsive' style="padding:5px"/>
+                              <img alt='Photo' src='images/vip.jpg' class='img-responsive' style="padding:5px"/>
                          </div>
                     </div>
                     <div class='col-md-6 col-sm-6' style="margin-bottom: 20px;">
                          <div class='team-thumb wow fadeInUp' style="background-color: #a5c422">
-                              <img alt='Photo' src='images/kelas2.jpg' class='img-responsive' style="padding:5px"/>
+                              <img alt='Photo' src='images/vip.jpg' class='img-responsive' style="padding:5px"/>
                          </div>
                     </div>
                     <div class='col-md-6 col-sm-6' style="margin-bottom: 20px;">
                          <div class='team-thumb wow fadeInUp' style="background-color: #a5c422">
-                              <img alt='Photo' src='images/kelas3.jpg' class='img-responsive' style="padding:5px"/>
+                              <img alt='Photo' src='images/vip.jpg' class='img-responsive' style="padding:5px"/>
                          </div>
                     </div>
                     

@@ -63,6 +63,7 @@
                 case "DokterKami"                              : include_once("pages/listsemuadokter.php"); break;
                 case "ListPoli"                                : include_once("pages/listpoli2.php"); break;
                 case "ListRanap"                               : include_once("pages/listranap.php"); break;
+                case "ListAbout"                               : include_once("pages/listabout.php"); break;
                 case "FasilitasKamar"                          : include_once("pages/listkamar.php"); break;
                 case "FasilitasRadiologi"                      : include_once("pages/listradiologi.php"); break;
                 case "FasilitasLaborat"                        : include_once("pages/listlaborat.php"); break;
