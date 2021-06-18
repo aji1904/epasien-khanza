@@ -463,6 +463,14 @@ http://www.tooplate.com/view/2098-health
     background-image: url(../images/slider3.jpg);
   }
 
+  .slider .item-fourth {
+      background-image: url(../images/slider4.jpg);
+  }
+
+  .slider .item-fifth {
+    background-image: url(../images/slider5.jpg);
+  }
+
 
   /*---------------------------------------
       ABOUT              

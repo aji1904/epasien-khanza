@@ -40,23 +40,23 @@
                            </div>
                       </div>
                       <!-- informasi poli -->
-                      <div class="item item-third">
+                      <div class="item item-fourth">
                            <div class="caption">
                                 <div class="col-md-offset-1 col-md-10">
                                      <h3>Anda Mengalami Keluhan Sakit, Datang Saja Kesini</h3>
                                      <h1>Poliklinik Kami</h1>
-                                     <a href="#news" class="section-btn btn btn-default btn-primary smoothScroll">Lihat Poliklinik</a>
+                                     <a href="#poli" class="section-btn btn btn-blue btn-default smoothScroll">Lihat Poliklinik</a>
                                 </div>
                            </div>
                       </div>
 
                       <!-- informasi kamar -->
-                      <div class="item item-third">
+                      <div class="item item-fifth">
                            <div class="caption">
                                 <div class="col-md-offset-1 col-md-10">
                                      <h3>Kenyamanan Anda Merupakan Kebanggaan Bagi Kami</h3>
                                      <h1>Fasilitas Kamar Inap</h1>
-                                     <a href="#" class="section-btn btn btn-default btn-warning smoothScroll">Lihat Kamar Inap</a>
+                                     <a href="#ranap" class="section-btn btn btn-warning btn-default smoothScroll">Lihat Kamar Inap</a>
                                 </div>
                            </div>
                       </div>
@@ -77,12 +77,15 @@
                               <p><?=$_SESSION["nama_instansi"]." merupakan salah satu rumah sakit umum di wilayah ".$_SESSION["kabupaten"]." yang berkedudukan di ".$_SESSION["alamat_instansi"].". ".$_SESSION["nama_instansi"]." merupakan perkembangan dari balai pengobatan, klinik dan berada dibawah YASKI. ".$_SESSION["nama_instansi"]." mendapat izin operasional dengan Kode PPK ".$_SESSION["kode_ppkkemenkes"]." sejak bulan Februari 2020 dan diresmikan tanggal 20 Februari 2020. ".$_SESSION["nama_instansi"]." dalam memberikan pelayanannya mengambil filosofi  dasar bahwa pelayanan kesehatan yang baik itu tidak harus mahal dan memberikan pelayanan yang baik. Filosofi dasar yang kedua adalah bersama yang tidak mampu kita harus maju. Hal ini memiliki arti bahwa ".$_SESSION["nama_instansi"]." harus mampu memajukan dirinya dan pihak-pihak yang berhubungan dengan dirinya menuju arah yang lebih baik."?></p>
                           </div>
                           <figure class="profile wow fadeInUp" data-wow-delay="1s">
-                               <img src="images/author-image.jpg" class="img-responsive" alt=""/>
+                               <img src="images/author-image.jpg" class="img-responsive" alt="" style="margin : 0px 15px 0px 0px"/>
                                <figcaption>
-                                    <h3>dr. Lenawaty HS, M.Kes</h3>
+                                    <h3>dr. Desi Kurniasih</h3>
                                     <p>Direktur RS Bunda Medika Jakabaring</p>
                                </figcaption>
                           </figure>
+                          
+                          <a href="#about" class="btn btn-warning " style="margin top: 10px;">Lihat Selengkapnya</a>
+
                      </div>
                 </div>
            </div>
@@ -113,13 +116,10 @@
                                                <h3><marquee>$rsquerydokter[1]</marquee></h3>
                                                <p>$rsquerydokter[2]</p>
                                                <div class='team-contact-info'>
-                                                    <p><i class='fa fa-phone'></i> HP/Telp. $rsquerydokter[5] </p>
+                                                    
                                                     <p><i class='fa fa-envelope-o'></i> No.SIP. $rsquerydokter[3] </p>
                                                </div>
-                                               <ul class='social-icon'>
-                                                    <li><a href='#' class='fa fa-linkedin-square'></a></li>
-                                                    <li><a href='#' class='fa fa-envelope-o'></a></li>
-                                               </ul>
+
                                           </div>
                                     </div>
                                     <br/>
@@ -262,8 +262,100 @@
       </div>
  </section>
 
+
+ <!-- Ranap -->
+ <section id="ranap" data-stellar-background-ratio="1" style="position: relative; padding-top: 100px; padding-bottom: 100px;">
+      <div class="container">
+           <div class="row">
+                <div class="col-md-12 col-sm-12">
+                     <div class="about-info">
+                          <h2 class="section-title wow fadeInUp" data-wow-delay="0.1s"><center>Fasilitas Rawat Inap</center></h2>
+                     </div>
+                </div>
+                <div class="clearfix"></div>
+                
+                    <div class='col-md-6 col-sm-6' style="margin-bottom: 30px; ">
+                         <div class='team-thumb wow fadeInUp' style="background-color: #a5c422">
+                              <img alt='Photo' src='images/vip.jpg' class='img-responsive' style="padding:5px"/>
+                         </div>
+                    </div>
+
+                    <div class='col-md-6 col-sm-6' style="margin-bottom: 30px;">
+                         <div class='team-thumb wow fadeInUp' style="background-color: #a5c422">
+                              <img alt='Photo' src='images/vip.jpg' class='img-responsive' style="padding:5px"/>
+                         </div>
+                    </div>
+                    <div class='col-md-6 col-sm-6' style="margin-bottom: 20px;">
+                         <div class='team-thumb wow fadeInUp' style="background-color: #a5c422">
+                              <img alt='Photo' src='images/vip.jpg' class='img-responsive' style="padding:5px"/>
+                         </div>
+                    </div>
+                    <div class='col-md-6 col-sm-6' style="margin-bottom: 20px;">
+                         <div class='team-thumb wow fadeInUp' style="background-color: #a5c422">
+                              <img alt='Photo' src='images/vip.jpg' class='img-responsive' style="padding:5px"/>
+                         </div>
+                    </div>
+                    
+                <div class='col-md-12 col-sm-12'>
+                     <div class="wow fadeInUp" >
+                         <br/><center><a href='index.php?act=ListRanap' class="btn btn-success" >Detail Rawat Inap</a></center>
+                     </div>
+                </div>
+
+               </div>
+           </div>
+      </div>
+ </section>
+
+ <!-- Poliklinik -->
+ <section id="poli" data-stellar-background-ratio="1" style="position: relative; padding-top: 100px; padding-bottom: 100px;">
+      <div class="container">
+           <div class="row">
+                <div class="col-md-12 col-sm-12">
+                     <div class="about-info">
+                          <h2 class="section-title wow fadeInUp" data-wow-delay="0.1s"><center>Poliklinik Kami</center></h2>
+                     </div>
+                </div>
+                <div class="clearfix"></div>
+                <div class='col-md-4 col-sm-6' style="margin-bottom: 10px;">
+                         <div class='team-thumb wow fadeInUp' style="background-color: #a5c422">
+                              <img alt='Photo' src='images/anak.jpg' class='img-responsive' style="padding:5px"/>
+                              <div>
+                                   <h3><marquee>Poliklinik Anak</marquee></h3>
+                              </div>
+                         </div>
+                    </div>
+
+                    <div class='col-md-4 col-sm-6' style="margin-bottom: 10px;">
+                         <div class='team-thumb wow fadeInUp' style="background-color: #a5c422">
+                              <img alt='Photo' src='images/kandungan.jpg' class='img-responsive' style="padding:5px"/>
+                              <div>
+                                   <h3><marquee>Poliklinik Kandungan</marquee></h3>
+                              </div>
+                         </div>
+                    </div>
+                    <div class='col-md-4 col-sm-6'>
+                         <div class='team-thumb wow fadeInUp' style="background-color: #a5c422">
+                              <img alt='Photo' src='images/mata.jpg' class='img-responsive' style="padding:5px"/>
+                              <div>
+                                   <h3><marquee>Poliklinik Mata</marquee></h3>
+                              </div>
+                         </div>
+                    </div>
+                <div class="col-md-12 col-sm-12">
+                     <div class="wow fadeInUp" data-wow-delay="0.2s">
+                         <br/><center><a href='index.php?act=ListPoli' class="btn btn-warning" >Semua Poliklinik</a></center>
+                     </div>
+                </div>
+
+           </div>
+      </div>
+ </section>
+
+
+
  <section id="google-map">
- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3984.1655359067945!2d104.80094131428473!3d-3.0503071409532145!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e3b9cf45d5e67b7%3A0x20514200519d9cb7!2sRS.Bunda%20Medika!5e0!3m2!1sen!2sid!4v1619056987160!5m2!1sen!2sid" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+ <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d63746.65454120349!2d104.76833307910157!3d-3.0502065000000034!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sbunda%20medika!5e0!3m2!1sen!2sid!4v1623985026917!5m2!1sen!2sid" style="border:0;" allowfullscreen="" loading="lazy" width="100%" height="450"></iframe>
  </section>     
 
  

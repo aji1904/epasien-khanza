@@ -143,8 +143,11 @@
      <script src="js/smoothscroll.js"></script>
      <script src="js/owl.carousel.min.js"></script>
      <script src="js/custom.js"></script>
-     <script src="conf/validator.js" type="text/javascript"></script>
+     <script src="conf/validator.js" type="text/javascript"></script>     
+     <!-- <script src="js/jquery.imageviewer.min.js"></script> -->
+
      <script type="text/javascript">
+     //    imageviewer();
         $(function() {
             $("#carikeyword").bind('submit',function() {
                  $.post('pages/listjadwaldokter.php',{value:$('#keyword').val()}, function(data){$("#hasilcari").html(data);});

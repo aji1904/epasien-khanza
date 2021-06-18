@@ -61,6 +61,8 @@
                 case "HomePasien"                              : include_once("pages/index.php"); break;
                 case "LoginPasien"                             : include_once("pages/login.php"); break;
                 case "DokterKami"                              : include_once("pages/listsemuadokter.php"); break;
+                case "ListPoli"                                : include_once("pages/listpoli2.php"); break;
+                case "ListRanap"                               : include_once("pages/listranap.php"); break;
                 case "FasilitasKamar"                          : include_once("pages/listkamar.php"); break;
                 case "FasilitasRadiologi"                      : include_once("pages/listradiologi.php"); break;
                 case "FasilitasLaborat"                        : include_once("pages/listlaborat.php"); break;
@@ -124,7 +126,9 @@
                      <li><a href='#about' class='smoothScroll'>Tentang Kami</a></li>
                      <li><a href='#team' class='smoothScroll'>Dokter Kami</a></li>
                      <li><a href='#news' class='smoothScroll'>Jadwal Praktek</a></li>
-                     <li><a href='index.php?act=FasilitasKamar' class='smoothScroll'>Fasilitas & Tarif</a></li>
+                     <li><a href='#ranap' class='smoothScroll'>Rawat Inap</a></li>
+                     <li><a href='#poli' class='smoothScroll'>Poliklinik</a></li>
+                     <li><a href='index.php?act=FasilitasKamar' class='smoothScroll'>Tarif</a></li>
                      <li class='appointment-btn'><a href='#appointment'>Buat Janji/Booking</a></li>";
             }else if(($aksi=="FasilitasKamar")||($aksi=="FasilitasRadiologi")||($aksi=="FasilitasLaborat")||($aksi=="FasilitasOperasi")||($aksi=="FasilitasOnline")){
                 echo "<li><a href='index.php?act=Home'>Home</a></li>
@@ -139,6 +143,8 @@
                      <li><a href='index.php?act=Home#about' class='smoothScroll'>Tentang Kami</a></li>
                      <li><a href='index.php?act=Home#team' class='smoothScroll'>Dokter Kami</a></li>
                      <li><a href='index.php?act=Home#news' class='smoothScroll'>Jadwal Praktek</a></li>
+                     <li><a href='index.php?act=Home#ranap' class='smoothScroll'>Rawat Inap</a></li>
+                     <li><a href='index.php?act=Home#poli' class='smoothScroll'>Poliklinik</a></li>
                      <li><a href='index.php?act=FasilitasKamar' class='smoothScroll'>Fasilitas & Tarif</a></li>
                      <li class='appointment-btn'><a href='index.php?act=Home#appointment'>Buat Janji/Booking</a></li>";
             }
