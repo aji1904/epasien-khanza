@@ -39,6 +39,28 @@
                                 </div>
                            </div>
                       </div>
+                      <!-- informasi poli -->
+                      <div class="item item-third">
+                           <div class="caption">
+                                <div class="col-md-offset-1 col-md-10">
+                                     <h3>Anda Mengalami Keluhan Sakit, Datang Saja Kesini</h3>
+                                     <h1>Poliklinik Kami</h1>
+                                     <a href="#news" class="section-btn btn btn-default btn-primary smoothScroll">Lihat Poliklinik</a>
+                                </div>
+                           </div>
+                      </div>
+
+                      <!-- informasi kamar -->
+                      <div class="item item-third">
+                           <div class="caption">
+                                <div class="col-md-offset-1 col-md-10">
+                                     <h3>Kenyamanan Anda Merupakan Kebanggaan Bagi Kami</h3>
+                                     <h1>Fasilitas Kamar Inap</h1>
+                                     <a href="#" class="section-btn btn btn-default btn-warning smoothScroll">Lihat Kamar Inap</a>
+                                </div>
+                           </div>
+                      </div>
+
                  </div>
            </div>
       </div>

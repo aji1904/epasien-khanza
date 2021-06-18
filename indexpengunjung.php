@@ -26,7 +26,7 @@
           <div class="container">
                <div class="row">
                     <div class="col-md-4 col-sm-5">
-                         <p>Selamat datang di <?=$_SESSION["nama_instansi"];?></p>
+                         <p><b>Selamat datang di <?=$_SESSION["nama_instansi"];?></b></p>
                     </div>
                     <div class="col-md-8 col-sm-7 text-align-right">
                          <span class="phone-icon"><i class="fa fa-phone"></i> <?=$_SESSION["kontak"];?></span>
@@ -45,7 +45,7 @@
                          <span class="icon icon-bar"></span>
                          <span class="icon icon-bar"></span>
                     </button>
-                    <a href="index.php" class="navbar-brand"><i class="fa fa-h-square"></i>ealth Center</a>
+                    <a href="index.php" class="navbar-brand"><?= $_SESSION["nama_instansi"]?></a>
                </div>
                <!-- MENU LINKS -->
                <div class="collapse navbar-collapse">
@@ -114,7 +114,7 @@
                     <div class="col-md-12 col-sm-12 border-top">
                          <div class="col-md-4 col-sm-6">
                               <div class="copyright-text"> 
-                                   <p>Copyright &copy; 2020 <?=$_SESSION["nama_instansi"];?> | <a href="http://www.yaski.or.id">www.yaski.or.id</a></p>
+                                   <p>Copyright &copy; <?php echo date('Y')?> <?=$_SESSION["nama_instansi"];?> | <a href="http://www.yaski.or.id">www.yaski.or.id</a></p>
                               </div>
                          </div>
                          <div class="col-md-6 col-sm-6">
