@@ -13,30 +13,7 @@
                 </div>
                        
                 <div class="clearfix"></div>
-                <?php
-                    if(!isset($_SESSION["semuadokter"])){
-                        $datadokter       = "";
-                        $querysemuadokter = bukaquery("select dokter.kd_dokter,left(dokter.nm_dokter,40) as dokter,spesialis.nm_sps,dokter.no_ijn_praktek,pegawai.photo,dokter.no_telp, pegawai.stts_aktif from dokter inner join spesialis on dokter.kd_sps=spesialis.kd_sps inner join pegawai on dokter.kd_dokter=pegawai.nik where dokter.status='1' and dokter.kd_dokter<>'-' AND pegawai.stts_aktif='AKTIF' order by spesialis.nm_sps");
-                        while($rsquerysemuadokter = mysqli_fetch_array($querysemuadokter)) {
-                            $datadokter=$datadokter.
-                                    "<div class='col-md-4 col-sm-6'>
-                                        <div class='team-thumb wow fadeInUp' data-wow-delay='0.2s'>
-                                             <img alt='Photo' src='http://".host()."/webapps/penggajian/$rsquerysemuadokter[4]' class='img-responsive' />
-                                              <div class='team-info'>
-                                                   <h3><marquee>$rsquerysemuadokter[1]</marquee></h3>
-                                                   <p>$rsquerysemuadokter[2]</p>
-                                                   <div class='team-contact-info'>
-                                                        <p><i class='fa fa-envelope-o'></i> No.SIP. $rsquerysemuadokter[3] </p>
-                                                   </div>
-                                              </div>
-                                        </div>
-                                        <br/>
-                                   </div>";
-                        }
-                        $_SESSION["semuadokter"]=$datadokter;
-                    }
-                    echo $_SESSION["semuadokter"];
-                ?>
+                <p style="text-align: center; font-size: 30px">Masih Di Proses</p>
            </div>
       </div>
  </section>
